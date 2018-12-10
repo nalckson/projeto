@@ -10,9 +10,8 @@
 <body>
 
 	<nav class="navbar navbar-dark bg-primary">
-		<a class="navbar-brand" href="../professor">Home</a>
-		<a class="navbar-brand"  href="#">Sair</a>
-
+		<a class="navbar-brand" href="../tecnico/index">HOME</a>
+		<a class="navbar-brand" href="{{route('logout')}}">SAIR</a>
 
 	  </div>
 	</nav>

@@ -55,7 +55,7 @@ class tecnicoController extends Controller
         $tecnico->matricula = Input::get('matricula');
         $tecnico->nome = Input::get('nome'); 
         $tecnico->email = Input::get('email');
-        $tecnico->senha = md5(Input::get('senha'));
+        $tecnico->password = md5(Input::get('senha'));
         $tecnico->tipo_user = "1";
 
         $tecnico->save();

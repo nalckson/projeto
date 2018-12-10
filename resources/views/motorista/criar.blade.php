@@ -10,14 +10,11 @@
 <body>
 
 	<nav class="navbar navbar-dark bg-primary">
-		<a class="navbar-brand" href="../tecnico">Home</a>
-		<a class="navbar-brand"  href="#">Sair</a>
-
-
-	  </div>
+		<a class="navbar-brand" href="../tecnico/index">HOME</a>
+		<a class="navbar-brand" href="{{route('logout')}}">SAIR</a>
+	  
 	</nav>
 <br>
- 
 
 	        <div class="row">
 				<div class="col-3"></div>

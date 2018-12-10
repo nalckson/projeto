@@ -11,12 +11,8 @@
 </head>
 <body>
   <nav class="navbar navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Home</a>
-    <a class="navbar-brand"  href="#">Sair</a>
-
-
-    </div>
-
+    <input class="btn btn-primary" type="button" value="HOME" onClick="history.go(-1)">
+    <a class="navbar-brand" href="{{route('logout')}}">SAIR</a>
   </nav>
       <div class="row">
         

@@ -11,9 +11,8 @@
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-primary">
-		<a class="navbar-brand" href="#">Tecnico</a>
-		
-		<a class="navbar-brand" href="{{route('logout')}}">Sair</a>
+		<a class="navbar-brand" href="../tecnico/index">HOME</a>
+		<a class="navbar-brand" href="{{route('logout')}}">SAIR</a>
 	</nav>
 
     <main role="main">
@@ -62,49 +61,6 @@
   <div class="card-header">
     
   </div>
-</div>
-	<h1>Tecnico</h1>
-
-</br> 
-
-	@foreach ($tecnicos as $not)
-		
-		<div class="card">
-			<div class="card-header">
-			<b><label for="recipient-name" class="col-form-label">Matricula:</label></b>
-				{{$not->matricula}}
-			</div>
-
-			<div class="card-body">
-			<b><label for="recipient-name" class="col-form-label">Nome:</label></b>
-				{{$not->nome}}
-			</div>
-
-		</div>
-
-		<br><br>
-
-	@endforeach
- 
-	@foreach ($tecnicos as $not)
-		
-		<div class="card">
-			<div class="card-header">
-			<b><label for="recipient-name" class="col-form-label">Matricula:</label></b>
-				{{$not->matricula}}
-			</div>
-
-			<div class="card-body">
-			<b><label for="recipient-name" class="col-form-label">Nome:</label></b>
-				{{$not->nome}}
-			</div>
-
-		</div>
-
-		<br><br>
-
-	@endforeach
-
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

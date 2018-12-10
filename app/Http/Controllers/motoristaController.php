@@ -54,7 +54,7 @@ class motoristaController extends Controller
         $motorista->matricula = Input::get('matricula');
         $motorista->nome = Input::get('nome'); 
         $motorista->email = Input::get('email');
-        $motorista->senha = md5(Input::get('senha'));
+        $motorista->password = md5(Input::get('senha'));
         $motorista->tipo_user = "3";
 
         $motorista->save();

@@ -49,7 +49,7 @@ class professorController extends Controller
         $professor->matricula = Input::get('matricula');
         $professor->nome = Input::get('nome'); 
         $professor->email = Input::get('email');
-        $professor->senha = md5(Input::get('senha'));
+        $professor->password = md5(Input::get('senha'));
         $professor->tipo_user = "2";
 
 
